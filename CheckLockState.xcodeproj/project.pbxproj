@@ -13,6 +13,8 @@
 		76AE69192438A19B006D7FB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AE69172438A19B006D7FB1 /* Main.storyboard */; };
 		76AE691B2438A1A0006D7FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76AE691A2438A1A0006D7FB1 /* Assets.xcassets */; };
 		76AE691E2438A1A0006D7FB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AE691C2438A1A0006D7FB1 /* LaunchScreen.storyboard */; };
+		76AE69262438A1D1006D7FB1 /* DeviceLockState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AE69252438A1D1006D7FB1 /* DeviceLockState.swift */; };
+		76AE69282438A211006D7FB1 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AE69272438A211006D7FB1 /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		76AE691A2438A1A0006D7FB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76AE691D2438A1A0006D7FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76AE691F2438A1A0006D7FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76AE69252438A1D1006D7FB1 /* DeviceLockState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLockState.swift; sourceTree = "<group>"; };
+		76AE69272438A211006D7FB1 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7641EA6C2438A7600046B7BD /* DeviceCheckState */ = {
+			isa = PBXGroup;
+			children = (
+				76AE69252438A1D1006D7FB1 /* DeviceLockState.swift */,
+				76AE69272438A211006D7FB1 /* Utility.swift */,
+			);
+			path = DeviceCheckState;
+			sourceTree = "<group>";
+		};
 		76AE69052438A19B006D7FB1 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +72,7 @@
 				76AE69112438A19B006D7FB1 /* AppDelegate.swift */,
 				76AE69132438A19B006D7FB1 /* SceneDelegate.swift */,
 				76AE69152438A19B006D7FB1 /* ViewController.swift */,
+				7641EA6C2438A7600046B7BD /* DeviceCheckState */,
 				76AE69172438A19B006D7FB1 /* Main.storyboard */,
 				76AE691A2438A1A0006D7FB1 /* Assets.xcassets */,
 				76AE691C2438A1A0006D7FB1 /* LaunchScreen.storyboard */,
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76AE69282438A211006D7FB1 /* Utility.swift in Sources */,
 				76AE69162438A19B006D7FB1 /* ViewController.swift in Sources */,
 				76AE69122438A19B006D7FB1 /* AppDelegate.swift in Sources */,
+				76AE69262438A1D1006D7FB1 /* DeviceLockState.swift in Sources */,
 				76AE69142438A19B006D7FB1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
